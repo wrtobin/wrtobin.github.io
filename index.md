@@ -6,6 +6,9 @@ Also I go outside sometimes and hike things, or bike things, or canoe things, or
 
 ### Research
 
+My thesis work is focused on the development of the Adaptive Multi-model Simulation Infrastructure (AMSI), a set of libraries intended to assist in the development and execution of numerically multi-scale and multi-model simulations, specifically on HPC machines targeting in particular the IBM BluegGene/Q architechture, though intended for use on any HPC platform. 
+
+Additionally I have conducted work to develop a multi-scale mechanics simulation of soft biological tissues using the AMSI libraries to support development and execution of the simulation.
 
 
 ### Publications and Presentations
