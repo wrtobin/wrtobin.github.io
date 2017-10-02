@@ -1,4 +1,4 @@
-"A CPU is literally a rock we tricked into thinking by polishing, putting in some extra metal, and shooting lightning into it."
+"We tricked rocks into thinking for us by polishing them, shoving in some extra metal, and shooting in lightning. Science is awesome." 
 
 ### About Me
 
