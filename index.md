@@ -1,4 +1,4 @@
-"A CPU is literally a rock we tricked into thinking."
+"A CPU is literally a rock we tricked into thinking by polishing, putting in some extra metal, and shooting lightning into it."
 
 ### About Me
 
