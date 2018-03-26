@@ -10,5 +10,9 @@ My thesis work is focused on the development of the Adaptive Multi-scale Simulat
 
 Additionally I have conducted work to develop multi-scale mechanics simulations including a soft biological tissue simulation using the AMSI libraries to support development and execution.
 
+### Code 
+
+[LAS](https://github.com/tobinw/las) Is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API functions away at compile-time.
+
 ### Publications and Presentations
 
