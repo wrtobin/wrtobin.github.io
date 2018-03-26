@@ -1,8 +1,9 @@
 ### About Me
 
-I do massively parallel numerical computing research, where I specialize in work on developing multi-scale simulations and software to support the implementation and execution of said simulations.
+I am a computer science PhD candidate at Rensselaer Polytechnic Institute (RPI) in Troy, NY. I develop software for HPC machi es and applications. My thesis work has been concerning the development of tools and 
+libraries for the efficient implementation and execution of multi-scale numerical simulations on HPC architectures.
 
-Also I go outside sometimes and hike things, or bike things, or canoe things, or go on backpacking trips and hike things for a long time.
+I'm also an avid hiker and a leader in the RPI Graduate Outdoor Recreation Program. I am a 46r and am working on becoming a winter 46r as well.
 
 ### Research
 
