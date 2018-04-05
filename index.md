@@ -12,7 +12,7 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 
 ### Code 
 
-[LAS](https://github.com/tobinw/las) Is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API functions away at compile-time.
+[LAS](https://github.com/tobinw/las) Is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API functions away at compile-time. A CAPI version is currently in development which will have single-function overhead instead of zero overhead since the CAPI backend will be compiled versions of the inline C++ functions, which cannot be inlined into C or FORTRAN code which is why a CAPI is desireable.
 
 [byte_stream](https://github.com/tobinw/byte_stream) A header-only library using C++11 variadic templates to assist in the serialization and deserialization of data structures. It can handle any Plain-old-datatype trivially, but for datatypes requiring a deep copy it can still provide utility. Mostly it was used to package up small objects to be sent over MPI to avoid defining a custom MPI_Datatype since defining custom MPI_Datatypes is essentially code duplication since you have to define your structure in two places: once in actual code and once to the MPI system.
 
