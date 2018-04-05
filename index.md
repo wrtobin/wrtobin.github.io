@@ -23,3 +23,9 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 Load Balancing Multiscale Simulations - SIAM Conference for Computational Science and Engineering 2015 - Minisymposium on Partitioning for Multiple Constraints and Objectives.
 
 Parallel Infrastructure for Multiscale Simulation - SIAM Conference for Parallel Processing 2014 - Minisymposium on Applications and Impact of FASTMATH II
+
+### Awards etc.
+
+Graduate Research Fellowship, Sandia National Labs, 2012-2015
+
+SIAM Travel Award - SIAM Conference for Computational Science and Engineering 2015
