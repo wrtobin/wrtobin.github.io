@@ -10,7 +10,7 @@ My thesis and primary work has been the Adaptive Multi-scale Simulation Infrastr
 
 Additionally I have conducted work to develop numerical HPC simulations and tools including a multi-scale soft biological tissue simulation using the AMSI libraries, the Simmetrix backend for the SCOREC/core tools, and am currently assisting in the development of several fusion codebases.
 
-### Code 
+### Libraries and Projects
 
 [LAS](https://github.com/tobinw/las) Is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API function calls away at compile-time. A CAPI version is currently in development which will have single-function overhead instead of zero overhead since the CAPI backend will be compiled versions of the inline C++ functions, which cannot be inlined into C or FORTRAN code which is why a CAPI is desireable.
 
