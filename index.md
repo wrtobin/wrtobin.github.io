@@ -12,7 +12,7 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 
 ### Libraries and Projects
 
-***m3dc1*** is a fusion code developed by the Princeton Particle Physics Laboratory (PPPL). I am currently working on improving the interaction and usage of the code with the meshing and tensor field libraries developed at SCOREC [core](https://github.com/SCOREC/core) and the linear algebraic systems library we're currently using (PETSc). Primarily I am focused on improving the efficiency of the finite element assembly procedure, w.r.t. both algorithmic and parallel data locality.
+***m3dc1*** is a fusion code developed by the Princeton Particle Physics Laboratory (PPPL). I am currently working on improving the interaction and usage of the code with the meshing and tensor field libraries [SCOREC/core](https://github.com/SCOREC/core) and the linear algebraic systems library we're currently using (PETSc). Primarily I am focused on improving the efficiency of the finite element assembly procedure, w.r.t. both algorithmic and parallel data locality.
 
 [***msi***](https://github.com/SCOREC/msi) is the Mesh Solver Interface. It is intended as a minimal CAPI allowing access to the features in SCOREC/core and their interactions with a linear algebraic system. It is being used to support the implementation of m3dc1 and another fusion code based on xgc. It is best to think of it as a wrapper layer between various backends, facilitating interactions which require operations from the discretized domain and tensor fields, the linear system, and the numerical kernels supplied by application developers.
 
