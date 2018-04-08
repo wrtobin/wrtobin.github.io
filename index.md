@@ -18,8 +18,8 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 
 [***LAS***](https://github.com/tobinw/las) is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API function calls away at compile-time. A CAPI version is currently in development which will have single-function overhead instead of zero overhead since the CAPI backend will be compiled versions of the inline C++ functions, which cannot be inlined into C or FORTRAN code which is why a CAPI is desireable.
 
-![LAS-managed matrix with MPI ownership ranges highlighted](images/las_mat_own.png)
 <p align="center">
+<img src="images/las_mat_own.png" alt="LAS-managed matrix with MPI ownership ranges highlighted"> <br/>
 A small PETSc matrix for the M3DC1 simulation using LAS to manage the linear system.
 </p>
 
@@ -28,6 +28,11 @@ A small PETSc matrix for the M3DC1 simulation using LAS to manage the linear sys
 Currently AMSI provides the most support for hierarchical multi-scale simulations, where the scales are seperated by many orders of magnitude (typically 6 or more), so inter-domain information required to establish coupling relationships is minimal. Using AMSI in a concurrent multi-scale simulation is certainly possible, but would require the user to implement methods for the interacting scales to establish inter-domain relationships for the scale-coupling. Extending AMSI with generic functionality supporting concurrent multi-scale simulations is a target for future work.
 
 ***biotissue*** (also contains API calls from an industry partner) is a multi-scale soft-tissue simulation using AMSI to couple together two scales: an engineering scale (cm and mm scale) and micro-scale (micrometer to nanometer). The engineering scale uses a finite element analysis code based on the Cauchy momentum balance equations for a body in static equilibrium, at every numerical integration point a micro-scale representative volume element (RVE) analysis takes place. Each RVE is a dimensionless bi-unit cube containing a fiber network modeled by truss elements. The macro-scale establishes boundary conditions at the micro-scale RVE corners, which displace the boundary nodes of the fiber network of truss elements. Producing a solution for the micro-scale system gives rise to a set of forces on the boundaries of the RVE which are dimensionalized and sent to the macro-scale for use as stress and stress-derivative terms in the macro-scale governing equations.
+
+<p align="center">
+<img src="images/bio_scales.png" alt="Biotissue scales"> <br/>
+The two biotissue scales: an engineering scale unstructured mesh coupled to dimensionless RVE cube containing a fiber network.
+</p>
 
 [***byte_stream***](https://github.com/tobinw/byte_stream) is a header-only library using C++11 variadic templates to assist in the serialization and deserialization of data structures. It can handle any Plain-old-datatype trivially, but for datatypes requiring a deep copy it can still provide utility. Mostly it was used to package up small objects to be sent over MPI to avoid defining a custom MPI_Datatype since defining custom MPI_Datatypes is essentially code duplication since you have to define your structure in two places: once in actual code and once to the MPI system.
 
