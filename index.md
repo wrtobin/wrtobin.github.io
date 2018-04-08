@@ -18,7 +18,7 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 
 [***LAS***](https://github.com/tobinw/las) is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API function calls away at compile-time. A CAPI version is currently in development which will have single-function overhead instead of zero overhead since the CAPI backend will be compiled versions of the inline C++ functions, which cannot be inlined into C or FORTRAN code which is why a CAPI is desireable.
 
-![LAS](https://github.com/tobinw/tobinw.github.io/blob/master/images/las_mat_own.png)
+![LAS](images/las_mat_own.png)
 <p align="center">
 A small PETSc matrix for the M3DC1 simulation using LAS to manage the linear system.
 <p>
