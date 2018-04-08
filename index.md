@@ -21,7 +21,7 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 ![LAS-managed matrix with MPI ownership ranges highlighted](images/las_mat_own.png)
 <p align="center">
 A small PETSc matrix for the M3DC1 simulation using LAS to manage the linear system.
-<p>
+</p>
 
 ***AMSI*** (contains proprietary API calls from an industry partner so source code is currently private) is a set of libraries used to support the implementation and execution of multi-scale numerical simulations. While many multi-scale systems require adherence to a strict API or set of data structures to which a user must adapt their code, AMSI is intended for use in combining existing well-established single-scale simulation codes. Refactoring and reimplementing a codebase to target a particular multi-scale framework is undesirable, so AMSI requires intervention in exising code only during initialization and at locations where multi-scale values influencing the simulation is required.
 
