@@ -10,13 +10,13 @@ My thesis and primary work has been the Adaptive Multi-scale Simulation Infrastr
 
 Additionally I have conducted work to develop numerical HPC simulations and tools including a multi-scale soft biological tissue simulation using the AMSI libraries, the Simmetrix backend for the SCOREC/core tools, and am currently assisting in the development of several fusion codebases.
 
-### Libraries and Projects
+### Libraries and Projects (listed chronologically)
 
 ***m3dc1*** is a fusion code developed by the Princeton Particle Physics Laboratory (PPPL). I am currently working on improving the interaction and usage of the code with the meshing and tensor field libraries [SCOREC/core](https://github.com/SCOREC/core) and the linear algebraic systems library we're currently using (PETSc). Primarily I am focused on improving the efficiency of the finite element assembly procedure, w.r.t. both algorithmic and parallel data locality.
 
 [***msi***](https://github.com/SCOREC/msi) is the Mesh Solver Interface. It is intended as a minimal CAPI allowing access to the features in SCOREC/core and their interactions with a linear algebraic system. It is being used to support the implementation of m3dc1 and another fusion code based on xgc. It is best to think of it as a wrapper layer between various backends, facilitating interactions which require operations from the discretized domain and tensor fields, the linear system, and the numerical kernels supplied by application developers.
 
-[***LAS***](https://github.com/tobinw/las) is a zero-overhead API for operating on linear algebraic systems, taking advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API function calls away at compile-time. A CAPI version is currently in development which will have single-function overhead instead of zero overhead since the CAPI backend will be compiled versions of the inline C++ functions, which cannot be inlined into C or FORTRAN code which is why a CAPI is desireable.
+[***LAS***](https://github.com/tobinw/las) is a zero-overhead API for operating on linear algebraic systems operating both in distributed-memory parallel and shared-memory parallel situations. LAS takes advantage of the C++ Curiously Recurring Template Pattern (CRTP) and aggressive inlining to optimize the API function calls away at compile-time. Each linear algebraic system provided to the library at configuration time additionally has a CAPI auto-generated at configuration and compile time which has a single function call overhead to allow using the API from strict C or FORTRAN code since naturally the backend functions cannot be inlined into those languages at compile time.
 
 <p align="center">
 <img src="images/las_mat_own.png" alt="LAS-managed matrix with MPI ownership ranges highlighted"> <br/>
