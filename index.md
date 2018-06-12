@@ -40,7 +40,13 @@ The two biotissue scales: an engineering scale unstructured mesh coupled to dime
 
 ### Scholarly Contributions
 
+#### Papers / Articles
+
 Chan, Victor W. L. and *Tobin, W.R.* et al, "Image-Based Multi-scale Mechanical Analysis of Strain Amplification in Neurons Embedded in Collagen Gel", Computer Methods in Biomechanics and Biomedical Engineering, in submission.
+
+#### Presentations
+
+*Tobin, W.R.* and Chan, V.W.L. and Shephard, M.S., "Dynamic Load Balancing for Multiscale Simulations", CSE Seminar Series, May 2015, Rensselear Polytechnic Institute.
 
 *Tobin, W.R.* and Chan, V.W.L. and Shephard, M.S., "Load Balancing Multiscale Simulations", SIAM Conference for Computational Science and Engineering 2015, Minisymposium on Partitioning for Multiple Constraints and Objectives.
 
