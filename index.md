@@ -38,15 +38,15 @@ The two biotissue scales: an engineering scale unstructured mesh coupled to dime
 
 [***tensor***](https://github.com/tobinw/tensor) is a basic implementation of a tensor interface using C++11 variadic templates. It was an attempt at getting a general tensor datatype with low-overhead data access operators to be specialized and used in other libraries needing vectors, matrices, and possibly higher-order tensors, but was discontinued after some initial speculative implementation of a basic dense tensor type (densor).
 
-### Publications and Presentations
+### Scholarly Contributions
 
 Chan, Victor W. L. and *Tobin, W.R.* et al, "Image-Based Multi-scale Mechanical Analysis of Strain Amplification in Neurons Embedded in Collagen Gel", Computer Methods in Biomechanics and Biomedical Engineering, in submission.
 
-Load Balancing Multiscale Simulations - SIAM Conference for Computational Science and Engineering 2015 - Minisymposium on Partitioning for Multiple Constraints and Objectives.
+*Tobin, W.R.* and Chan, V.W.L. and Shephard, M.S., "Load Balancing Multiscale Simulations", SIAM Conference for Computational Science and Engineering 2015, Minisymposium on Partitioning for Multiple Constraints and Objectives.
 
-Parallel Infrastructure for Multiscale Simulation - SIAM Conference for Parallel Processing 2014 - Minisymposium on Applications and Impact of FASTMATH II
+*Tobin, W.R.* and Fovargue, D. and Shephard, M.S., "Parallel Infrastructure for Multiscale Simulation", SIAM Conference for Parallel Processing 2014, Minisymposium on Applications and Impact of FASTMATH II
 
-### Awards etc.
+### Awards
 
 Graduate Research Fellowship, Sandia National Labs, 2012-2015
 
