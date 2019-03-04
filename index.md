@@ -6,9 +6,9 @@ I'm also an avid hiker and a 46r (#10768) and I'm working on becoming a winter 4
 
 ### Research
 
-My thesis and primary work has been the Adaptive Multi-scale Simulation Infrastructure (AMSI), a set of libraries to assist in the development and execution of numerically multi-scale simulations, specifically on HPC machines but targeting in particular the IBM BlueGene/Q architecture. Most performance runs involving AMSI-supported code have been conducted on the AMOS BlueGene/Q machine managed by the [CCI](http://cci.rpi.edu/).
+My thesis and work was entitled "The Adaptive Multi-scale Simulation Infrastructure (AMSI)", it was a set of libraries to assist in the development and execution of numerically multi-scale simulations, specifically on HPC machines but targeting in particular the IBM BlueGene/Q architecture. Most performance runs involving AMSI-supported code have been conducted on the AMOS BlueGene/Q machine managed by the [CCI](http://cci.rpi.edu/).
 
-Additionally I have conducted work to develop numerical HPC simulations and tools including a multi-scale soft biological tissue simulation using the AMSI libraries, the Simmetrix backend for the SCOREC/core tools, and am currently assisting in the development of several fusion codebases.
+Additionally I have conducted work to develop numerical HPC simulations and tools including a multi-scale soft biological tissue simulation using the AMSI libraries, the Simmetrix backend for the SCOREC/core tools, and am currently assisting in the development of several fusion codebases:
 
 ### Libraries and Projects (listed chronologically)
 
