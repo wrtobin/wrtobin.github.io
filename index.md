@@ -12,7 +12,9 @@ Additionally I have conducted work to develop numerical HPC simulations and tool
 
 ### Libraries and Projects (listed chronologically)
 
-***m3dc1*** is a fusion code developed by the Princeton Particle Physics Laboratory (PPPL). I am currently working on improving the interaction and usage of the code with the meshing and tensor field libraries [SCOREC/core](https://github.com/SCOREC/core) and the linear algebraic systems library we're currently using (PETSc). Primarily I am focused on improving the efficiency of the finite element assembly procedure, w.r.t. both algorithmic and parallel data locality.
+***XGCm*** is a variation on a fusion code developed by the Princeton Particale Physics Laboratory (PPPL). The original XGC code was implemented using structured grids for domain representation, XGCm is being developed by SCOREC to leverage our techniques in unstructured meshing for domain representation. Additionally it is the initial project motivating our work on the PUMIpic library combining unstructured grids and particle-in-cell (PIC) methods and techniques for performing finite element assembly and PIC procedures on GPUs/other accelerators.
+
+***m3d-c1*** is a fusion code developed by the PPPL. I am currently working on improving the interaction and usage of the code with the meshing and tensor field libraries [SCOREC/core](https://github.com/SCOREC/core) and the linear algebraic systems library we're currently using (PETSc). Primarily I am focused on improving the efficiency of the finite element assembly procedure, w.r.t. both algorithmic and parallel data locality.
 
 [***msi***](https://github.com/SCOREC/msi) is the Mesh Solver Interface. It is intended as a minimal CAPI allowing access to the features in SCOREC/core and their interactions with a linear algebraic system. It is being used to support the implementation of m3dc1 and another fusion code based on xgc. It is best to think of it as a wrapper layer between various backends, facilitating interactions which require operations from the discretized domain and tensor fields, the linear system, and the numerical kernels supplied by application developers.
 
