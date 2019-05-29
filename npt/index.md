@@ -10,6 +10,17 @@ I will be signing in at every trail register along the NPT, and the clothing sec
 
 As much as possible I will be overnighting in marked camping sites and near lean-tos, although since dispersed camping is allowed along most of the trail it is possible I might instead camp off-trail at a site meeting all of the requirements for dispersed camping (typically >150 from trail and any water sources). Additionally I will be hanging my food an all other scented items in a bright blue dry sack (see gear section) at least 150 feet from camp, using the two-rope hanging method to help mitigate issues with critters and potentially bears as I get nearer the Lake Placid area. I will not be carrying a bear canister due to the added weight and bulk and since it is not required outside of the Eastern High Peaks region.
 
+* Day 1 - Northville to West Stoney Creek ()
+* Day 2 - West Stoney Creek to Whitehouse ()
+* Day 3 - Whitehouse to Fall Stream ()
+* Day 4 - Fall Stream to West Canada ()
+* Day 5 - West Canada to Carry ()
+* Day 6 - Carry to Stephens Pond ()
+* Day 7 - Stephens Pond to Kelly Point ()
+* Day 8 - Kelly Point to Seward ()
+* Day 9 - Seward to Wanika Falls ()
+* Day 10 - Wanika Falls to Lake Placid ()
+
 ## Clothing
 
 The following is a set of pictures of all the clothing I will have with me on the hike, including the patterns of the bottom of my boots:
