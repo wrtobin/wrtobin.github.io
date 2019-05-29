@@ -37,7 +37,7 @@ The following is a set of picture of all the gear I will have with my on the hik
 
 ## Food
 
-The following is a full accounting of the food I will be caring on the trail. I have budgetted approximately 3k calories a day. This will leave me running a daily calorie deficit, and I anticipate by the end of the trail I will have burned 3-5 pounds of body fat. I am primarily packing fat-heavy foods, plus some foods with carbs. I am lacking in protein overall, though I have some modest sources in nuts and oats that should allow me to get over the minimum ammount required to perform.
+The following is a full accounting of the food I will be carying on the trail. I have budgetted approximately 3k calories a day. This will leave me running a daily calorie deficit, and I anticipate by the end of the trail I will have burned 3-5 pounds of body fat. I am primarily packing fat-heavy foods, plus some foods with carbs. I am lacking in protein overall, though I have some modest sources in nuts and oats that should allow me to get over the minimum ammount required to perform.
 
 I am not planning to conduct any resupply at towns along the trail, so this accounts for all of my food:
 
