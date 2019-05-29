@@ -29,15 +29,17 @@ The following is a set of pictures of all the clothing I will have with me on th
 
 The following is a set of picture of all the gear I will have with my on the hike:
 
-### Overnight Gear
+<p align="center">
+<img src="npt-gear.jpg" alt="All the gear and food for the hike laid out"> <br/>
+</p>
 
-### Hiking Gear
+<p align="center">
+<img src="npt-boots.jpg" alt="The tread pattern on my boots"> <br/>
+</p>
 
-### Medical Gear
-
-### Tech Gear
-
-### Misc
+<p align="center">
+<img src="npt-pack.jpg" alt="All the gear inside my backpack"> <br/>
+</p>
 
 ## Food
 
