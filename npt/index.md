@@ -33,6 +33,10 @@ The following is a set of picture of all the gear I will have with my on the hik
 
 ### Hiking Gear
 
+### Medical Gear
+
+### Tech Gear
+
 ### Misc
 
 ## Food
