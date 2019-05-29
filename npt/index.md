@@ -2,9 +2,9 @@
 
 ## Itinerary
 
-I will be hiking north-bound on the NPT starting at approximately 7:30am, June 1st, until approximately 11:15am, June 10th. The trail is approximately 138 miles from Northville, NY to Lake Placid, NY. A map of the trail can be found [here](http://www.nptrail.org/current-trail-conditions/interactive-trail-map/).
+I will be hiking north-bound on the NPT starting at approximately 7:30am, June 1st, until 11:15am, June 10th. The trail is approximately 138 miles from Northville, NY to Lake Placid, NY. A map of the trail can be found [here](http://www.nptrail.org/current-trail-conditions/interactive-trail-map/).
 
-The daily mileage is approximate, but in order to arrive at my destination on June 10th I will need to average approximately 15 miles a day. However my bus from Lake Placid to Albany leaves at 11:15am from the Olympic Bus Depot in Lake Placid on 6/10, so I will be trying to finish the day on 6/9 at the last feasible camp site on the NPT before Lake Placid, to try to keep my mileage on the final day as light as possible to make arriving on time easier, thus a daily pace of 16-17 miles on average will be likely. The spacing of camp sites along the trail being what it is, this will likely differ day to day from as few as 12 miles, to as many as 20 (hopefully on latter days when my pack is lighter from food consumption).
+The daily mileage is approximate, but in order to arrive at my destination on June 10th I will need to average 15 miles a day. However my bus from Lake Placid to Albany leaves at 11:15am from the Olympic Bus Depot in Lake Placid on 6/10, so I will be trying to finish the day on 6/9 at the last feasible camp site on the NPT before Lake Placid, to try to keep my mileage on the final day as light as possible to make arriving on time easier, thus a daily pace of 16-17 miles on average will be likely. The spacing of camp sites along the trail being what it is, this will likely differ day to day from as few as 12 miles, to as many as 20 (hopefully on latter days when my pack is lighter from food consumption).
 
 I will be signing in at every trail register along the NPT, and the clothing section below contains pictures of the bottoms of my hiking boots if they are needed to assist in locating me if I am out of contact longer than expected.
 
