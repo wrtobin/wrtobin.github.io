@@ -57,4 +57,6 @@ Additionally I am bringing a bottle of electrolyte drops that I will be adding t
 
 I should be able to get into contact by the end of the day on 6/10 at the latest, as I am meeting the property manager at my new apartement at approximately 5:30pm on June 10th. If my phone is dead and I am unable to recharge it before getting into my new apartment, I will not be in contact until around 6pm EST 6/10.
 
+My Garmin InReach will post location information to (this)[https://us0-share.inreach.garmin.com/wtobin] mapshare website as I am hiking.
+
 Should I fail to get in contact by the 11th or so, please contact the NYS DEC Search and Rescue team at (518-408-5850) with the necessary information to begin search and rescure operations. Providing them the URL to this site would likely be a good idea.
