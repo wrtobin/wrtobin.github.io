@@ -1,8 +1,10 @@
 ### About Me
 
-I am a computer science post-doctoral researcher at Rensselaer Polytechnic Institute (RPI) in Troy, NY, where I work for the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/). I develop software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale numerical simulations on HPC architectures.
+I am a Computational Scientist working at Lawrence Livermore National Laboratory in Livermore, CA. 
 
-I'm also an avid hiker and a 46r (#10768) and I'm working on becoming a winter 46r as well. I'm also a leader in the RPI Graduate Outdoor Recreation Program (GORP) and design and lead both events for the general graduate student body and training events for GORP leaders-in-training. I'm CPR and WFA certified and hope to obtain my WFR certification soon.
+I previously worked as a post-doctoral researcher and graduate researcher at the the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/) at Rensselear Polytechnic Institute where I earned my PhD in Computer Science. I develop software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale numerical simulations on HPC architectures.
+
+Much of the contect below has not been updated since my transition from post-doctoral researcher to research staff at LLNL, but it does still provide an overview of my previous work and research.
 
 ### Research
 
