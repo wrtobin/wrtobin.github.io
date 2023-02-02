@@ -4,7 +4,7 @@ I am a Computational Scientist working at Lawrence Livermore National Laboratory
 
 My public-facing work is mostly available in the [GEOSX](https://github.com/GEOSX/) project, where I've been the development lead on our HIP/ROCM port on Oak Ridge's Exascale test platforms Spock and Crusher (awaiting access to Frontier). I've also implemented the low-level in-situ data extraction features for GEOSX to allow users to extract arbitrary fields / data of interest on the mesh / associated with the linear systems, worked on JIT compilation of our high-performance physics kernels, developed and optimized our serialization kernels used for halo-exchange operations over MPI, developed multi-level asyncronous algorithms overlapping communication and work on GPU devices, the CPU, and including MPI async communications. Additionally I contributed to our MPI wrapper layers and developed generic MPI phased-communication routines, which we are in the process of expanding into a generalized asynchronous micro-task DAG execution feature for robustness.
 
-The above repressents approximately 50% of my time effort at LLNL over the last ~3 years.
+The above represents approximately 50% of my time effort at LLNL over the last ~3 years.
 
 I previously worked as a post-doctoral researcher and graduate researcher at the the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/) at Rensselear Polytechnic Institute where I earned my PhD in Computer Science. I develop software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale numerical simulations on HPC architectures.
 
