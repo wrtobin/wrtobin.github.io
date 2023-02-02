@@ -6,7 +6,7 @@ My public-facing work is mostly available in the [GEOSX](https://github.com/GEOS
 
  I've also implemented a low-level in-situ data extraction feature (dubbed TimeHistory) for GEOSX to allow users to extract arbitrary fields / data of interest on the mesh / associated with the linear systems, worked on JIT compilation of our modern, highly-templated C++ physics kernels, developed and optimized our type- and array-layout agnostic serialization kernels used for halo-exchange operations over MPI, and developed hierarchical asyncronous algorithms overlapping CPU work / async GPU work / and async MPI communications. Additionally I contributed to our MPI wrapper layers and developed generic MPI phased-communication routines, which we are in the process of expanding into a generalized asynchronous micro-task DAG execution feature for robustness.
 
-The above GEOSX work represents approximately 50% of my time effort at LLNL over the last ~3 years.
+The above GEOSX work represents approximately 50% of my time effort at LLNL from September 2019 - January 2023.
 
 The other 50% of my time has involved similar work. But in addition: modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, post-processing visualization tool development, optimization, and modernization, CI/CD support for legacy codebases, modernizing build-systems to use lab-standard CMake + [BLT](https://github.com/LLNL/blt), workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
 
