@@ -8,7 +8,7 @@ My public-facing work is mostly available in the [GEOSX](https://github.com/GEOS
 
 The above GEOSX work represents approximately 50% of my time effort at LLNL over the last ~3 years.
 
-The other 50% of my time has involved some similar work, modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, visualization tool development and modernization, CI/CD, workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
+The other 50% of my time has involved similar work. But in addition: modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, visualization tool development and modernization, CI/CD, workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
 
 
 
