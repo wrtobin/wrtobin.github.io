@@ -10,9 +10,7 @@ The above GEOSX work represents approximately 50% of my time effort at LLNL over
 
 The other 50% of my time has involved similar work. But in addition: modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, post-processing visualization tool development, optimization, and modernization, CI/CD support for legacy codebases, modernizing build-systems to use lab-standard CMake + [BLT](https://github.com/LLNL/blt), workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
 
-
-
-I previously worked as a post-doctoral researcher and graduate researcher at the the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/) at Rensselear Polytechnic Institute where I earned my PhD in Computer Science. I develop software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale numerical simulations on HPC architectures.
+I previously worked as a post-doctoral researcher and graduate researcher at the the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/) at Rensselear Polytechnic Institute where I earned my PhD in Computer Science. During my time there I was also a Graduate Research Fellow at Sandia National Laboratory from 2012 to 2015. I primarily developed software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale simulations on HPC architectures.
 
 Much of the content below has not been updated since my transition from post-doctoral researcher to research staff at LLNL, but it does still provide an overview of my previous work and research.
 
@@ -63,11 +61,19 @@ Chan, Victor W. L. and *Tobin, W.R.* et al, "Image-Based Multi-scale Mechanical 
 
 #### Presentations
 
+*Tobin, W.R. "VS Code in HPC", IMG Group, March 2023
+
+*Tobin, W.R. "Loop Fusion for Device Packing Kernels", LLNL ASQ Seminar, March 2021
+
 *Tobin, W.R.* and Chan, V.W.L. and Shephard, M.S., "Dynamic Load Balancing for Multiscale Simulations", CSE Seminar Series, May 2015, Rensselear Polytechnic Institute.
 
 *Tobin, W.R.* and Chan, V.W.L. and Shephard, M.S., "Load Balancing Multiscale Simulations", SIAM Conference for Computational Science and Engineering 2015, Minisymposium on Partitioning for Multiple Constraints and Objectives.
 
 *Tobin, W.R.* and Fovargue, D. and Shephard, M.S., "Parallel Infrastructure for Multiscale Simulation", SIAM Conference for Parallel Processing 2014, Minisymposium on Applications and Impact of FASTMATH II
+
+#### Posters
+
+ECP Annual Meeting 2020, 2023 - GEOSX 
 
 ### Awards
 
