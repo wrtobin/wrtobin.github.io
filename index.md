@@ -8,7 +8,11 @@ Our primary performance portability layers have relied on [RAJA](https://github.
 
  I've also implemented a low-level in-situ data extraction feature for GEOSX to allow users to extract arbitrary fields / data of interest on the mesh / associated with the linear systems, worked on JIT compilation of our modern, highly-templated C++ physics kernels, developed and optimized our serialization kernels used for halo-exchange operations over MPI, developed multi-level asyncronous algorithms overlapping communication and work on GPU devices, the CPU, and including MPI async communications. Additionally I contributed to our MPI wrapper layers and developed generic MPI phased-communication routines, which we are in the process of expanding into a generalized asynchronous micro-task DAG execution feature for robustness.
 
-The above GEOSX work represents approximately 50% of my time effort at LLNL over the last ~3 years.. the other 50% of my time has involved some similar work, modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, visualization tool development and modernization, CI/CD, workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
+The above GEOSX work represents approximately 50% of my time effort at LLNL over the last ~3 years.
+
+The other 50% of my time has involved some similar work, modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, visualization tool development and modernization, CI/CD, workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
+
+
 
 I previously worked as a post-doctoral researcher and graduate researcher at the the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/) at Rensselear Polytechnic Institute where I earned my PhD in Computer Science. I develop software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale numerical simulations on HPC architectures.
 
