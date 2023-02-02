@@ -71,10 +71,6 @@ Chan, Victor W. L. and *Tobin, W.R.* et al, "Image-Based Multi-scale Mechanical 
 
 *Tobin, W.R.* and Fovargue, D. and Shephard, M.S., "Parallel Infrastructure for Multiscale Simulation", SIAM Conference for Parallel Processing 2014, Minisymposium on Applications and Impact of FASTMATH II
 
-#### Posters
-
-ECP Annual Meeting 2020, 2023 - GEOSX 
-
 ### Awards
 
 Graduate Research Fellowship, Sandia National Labs, 2012-2015
