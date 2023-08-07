@@ -1,10 +1,12 @@
-### About Me 
+## About Me 
 
 I am a Computational Scientist working at Lawrence Livermore National Laboratory in Livermore, CA. 
 
 I am currently the CS lead on the [GEOS](https://github.com/GEOS-DEV/) code. I was solely responsible for on our HIP/ROCM port, focusing on HPC platforms Frontier at ORNL and El Capitan at LLNL. I hit our ECP project stretch goals on Frontier during our early access period in Feb. 2023, levaraging 1/2 of the machine in the process. 
 
 I am currently working in conjuction with devs on [Hypre](https://github.com/hypre-space/hypre) to develop an article on our results on Frontier and the MI250x, and other GEOS developers on an article related to matrix-free low-order FEM kernel performance on various accelerators including MI250x, V100, A100, and H100 (though if the LLNL El Cap test platform comes online in the interim we'll likely include the MI300a as well).
+
+![AMD MI250x](images/amd_instinct_mi250x_oam.png)
 
 The GEOS portability layers have relied on [RAJA](https://github.com/LLNL/RAJA), [CHAI](https://github.com/LLNL/CHAI), [Umpire](https://github.com/LLNL/Umpire), and [LvArray](https://github.com/GEOS-DEV/LvArray/). While working on our HIP/ROCM port I also ported our TPLs to [Uberenv](https://github.com/LLNL/uberenv)+[SPACK](https://github.com/spack/spack) which has included upstreaming fixes to spack in particular, modifying spack build recipes for HPC packages, and developing / maintaining spack environments on our target HPC platforms.
 
