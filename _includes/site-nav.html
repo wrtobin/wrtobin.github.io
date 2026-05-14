@@ -1,0 +1,17 @@
+{% assign on_home = page.url == '/' %}
+{% assign on_capabilities = page.url == '/capabilities/' %}
+{% assign on_public_work = page.url == '/public-work/' %}
+{% assign on_articles = page.url == '/articles/' or page.url contains '/articles/' %}
+{% assign on_lab = page.url == '/lab/' or page.url contains '/lab/' %}
+{% assign on_cv = page.url == '/cv/' %}
+{% assign on_contact = page.url == '/contact/' %}
+
+<nav class="site-nav" aria-label="Primary">
+  <a href="{{ '/' | relative_url }}"{% if on_home %} class="is-active"{% endif %}>Home</a>
+  <a href="{{ '/capabilities/' | relative_url }}"{% if on_capabilities %} class="is-active"{% endif %}>Capabilities</a>
+  <a href="{{ '/public-work/' | relative_url }}"{% if on_public_work %} class="is-active"{% endif %}>Public Work</a>
+  <a href="{{ '/articles/' | relative_url }}"{% if on_articles %} class="is-active"{% endif %}>Notes</a>
+  <a href="{{ '/lab/' | relative_url }}"{% if on_lab %} class="is-active"{% endif %}>Lab</a>
+  <a href="{{ '/cv/' | relative_url }}"{% if on_cv %} class="is-active"{% endif %}>CV</a>
+  <a href="{{ '/contact/' | relative_url }}"{% if on_contact %} class="is-active"{% endif %}>Contact</a>
+</nav>

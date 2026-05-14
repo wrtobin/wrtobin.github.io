@@ -1,8 +1,28 @@
-title: W.R. Tobin
-description: Professional Website of William R Tobin
-google_analytics: 
+title: William Reading Tobin
+description: Public-facing work in HPC, scientific software, numerical methods, and computational science.
+url: https://www.wrtobin.com
+google_analytics:
 show_downloads: false
-theme: jekyll-theme-midnight
+markdown: kramdown
 
-gems:
+plugins:
   - jekyll-mentions
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - cv/cv.tex

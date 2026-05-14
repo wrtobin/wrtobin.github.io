@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.summary | default: page.lede | default: site.description | escape }}">
+    <script>
+      (function() {
+        var storedTheme = null;
+        try {
+          storedTheme = localStorage.getItem("theme-preference");
+        } catch (error) {
+          storedTheme = null;
+        }
+
+        var theme = storedTheme;
+        if (theme !== "light" && theme !== "dark") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/stylesheets/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/stylesheets/github-light.css' | relative_url }}">
+    {% if page.url == '/' %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "url": "https://www.wrtobin.com/",
+        "name": "William Reading Tobin",
+        "description": "Public-facing work in HPC, scientific software, numerical methods, and computational science.",
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://www.wrtobin.com/#person",
+          "name": "William Reading Tobin",
+          "url": "https://www.wrtobin.com/",
+          "jobTitle": "Staff Scientist",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Lawrence Livermore National Laboratory"
+          },
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Rensselaer Polytechnic Institute"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Cal Poly Humboldt"
+            }
+          ],
+          "sameAs": [
+            "https://github.com/wrtobin",
+            "https://www.linkedin.com/in/william-reading-tobin-phd-51b5321b",
+            "https://orcid.org/0009-0001-3960-6064"
+          ],
+          "knowsAbout": [
+            "High-performance computing",
+            "Scientific software",
+            "Numerical methods",
+            "Performance engineering",
+            "Mixed-language systems",
+            "Reproducible research software"
+          ]
+        }
+      }
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="brand-block">
+          <p class="eyebrow">Computational science · HPC software · scientific computing</p>
+          <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+          <p class="site-tagline">Public-facing material on scientific software, numerical computing, mixed-language systems, and reproducible technical practice.</p>
+        </div>
+        <div class="header-controls">
+          <button class="theme-toggle" type="button" id="theme-toggle" aria-live="polite" aria-label="Switch to dark mode">Dark Mode</button>
+        </div>
+        {% include site-nav.html %}
+      </header>
+      <main id="content" class="site-main">
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <p>Open technical writing, selected publications, public code, and small reproducible experiments in scientific software and HPC.</p>
+      </footer>
+    </div>
+    <script src="{{ '/scripts/theme-toggle.js' | relative_url }}"></script>
+  </body>
+</html>

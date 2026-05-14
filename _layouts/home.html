@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="hero">
+  <div>
+    {% if page.kicker %}<p class="eyebrow">{{ page.kicker }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="hero-summary">{{ page.summary }}</p>{% endif %}
+    <div class="hero-actions">
+      <a class="button-link" href="{{ '/capabilities/' | relative_url }}">Capabilities</a>
+      <a class="button-secondary" href="{{ '/public-work/' | relative_url }}">Public Work</a>
+      <a class="button-secondary" href="{{ '/articles/' | relative_url }}">Notes</a>
+      <a class="button-secondary" href="{{ '/lab/' | relative_url }}">Lab</a>
+    </div>
+  </div>
+  <aside class="hero-panel">
+    <h2>Focus Areas</h2>
+    <ul class="compact-list">
+      {% for item in page.focus_areas %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <hr>
+    <h2>Profiles</h2>
+    <ul class="inline-list">
+      <li><a href="https://github.com/wrtobin">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/william-reading-tobin-phd-51b5321b">LinkedIn</a></li>
+      <li><a href="https://orcid.org/0009-0001-3960-6064">ORCID</a></li>
+      <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    </ul>
+  </aside>
+</section>
+
+<article class="page-shell">
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

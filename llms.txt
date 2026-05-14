@@ -1,0 +1,11 @@
+# William Reading Tobin
+
+William Reading Tobin is a staff scientist and HPC software developer working across numerical methods, performance portability, GPU enablement, mixed-language systems, and engineering infrastructure for large scientific codes.
+
+- [Home](https://www.wrtobin.com/)
+- [Capabilities](https://www.wrtobin.com/capabilities/)
+- [Public Work](https://www.wrtobin.com/public-work/)
+- [Self-Published Notes](https://www.wrtobin.com/articles/)
+- [Lab](https://www.wrtobin.com/lab/)
+- [CV](https://www.wrtobin.com/cv/)
+- [Contact](https://www.wrtobin.com/contact/)

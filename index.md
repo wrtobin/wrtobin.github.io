@@ -1,19 +1,58 @@
-## About Me 
+---
+layout: home
+title: Computational Science and HPC Software
+kicker: Staff Scientist at Lawrence Livermore National Laboratory
+summary: I am William Reading Tobin, a staff scientist and HPC software developer working across numerical methods, performance portability, GPU enablement, mixed-language systems, and the engineering infrastructure that keeps large scientific codes effective over time.
+focus_areas:
+  - Performance engineering for scientific codes
+  - Numerical software and research computing workflows
+  - GPU enablement, portability, and mixed-language systems
+  - Testing, reproducibility, and maintainability
+---
 
-I am a Computational Scientist working at Lawrence Livermore National Laboratory in Livermore, CA. 
+<section class="card-grid">
+  <article class="card">
+    <h2>Current role</h2>
+    <p>I am a staff scientist at Lawrence Livermore National Laboratory. My work includes HPC software leadership, scientific computing infrastructure, performance portability, GPU-oriented implementation, and support for demanding research workflows.</p>
+  </article>
+  <article class="card">
+    <h2>Background</h2>
+    <p>I received a PhD in Computer Science from Rensselaer Polytechnic Institute and a BA in Applied Mathematics plus a BS in Computer Science from Cal Poly Humboldt.</p>
+  </article>
+  <article class="card">
+    <h2>Technical scope</h2>
+    <p>I am most useful where numerical methods, parallel computing, software design, and delivery infrastructure have to work together. That includes kernels, runtimes, communication layers, toolchains, testing, and the developer workflows around them.</p>
+  </article>
+</section>
 
-I am currently the CS lead on the [GEOS](https://github.com/GEOS-DEV/) code. I was solely responsible for on our HIP/ROCM port, focusing on HPC platforms Frontier at ORNL and El Capitan at LLNL. I hit our ECP project stretch goals on Frontier during our early access period in Feb. 2023, levaraging 1/2 of the machine in the process. 
+## Focus
 
-I am currently working in conjuction with devs on [Hypre](https://github.com/hypre-space/hypre) to develop an article on our results on Frontier and the MI250x, and other GEOS developers on an article related to matrix-free low-order FEM kernel performance on various accelerators including MI250x, V100, A100, and H100 (though if the LLNL El Cap test platform comes online in the interim we'll likely include the MI300a as well).
+- Performance-critical scientific software and numerical methods.
+- Parallel and distributed computing for research workloads.
+- Mixed-language codebases spanning C, C++, Fortran, and Python.
+- Reproducibility, testing, and maintainable research software practice.
 
-![AMD MI250x](images/amd_instinct_mi250x_oam.png)
+## Work Threads
 
-The GEOS portability layers have relied on [RAJA](https://github.com/LLNL/RAJA), [CHAI](https://github.com/LLNL/CHAI), [Umpire](https://github.com/LLNL/Umpire), and [LvArray](https://github.com/GEOS-DEV/LvArray/). While working on our HIP/ROCM port I also ported our TPLs to [Uberenv](https://github.com/LLNL/uberenv)+[SPACK](https://github.com/spack/spack) which has included upstreaming fixes to spack in particular, modifying spack build recipes for HPC packages, and developing / maintaining spack environments on our target HPC platforms.
+- Current LLNL work spans scientific software projects, research computing infrastructure, performance engineering, and workflow support.
+- GEOS remains an important part of my recent background, but my role there is now mostly continuity, legacy knowledge, and occasional advisory support rather than day-to-day primary development.
+- GPU enablement and performance-portability work, including HIP and ROCm-oriented development for AMD platforms and Frontier-era / El Capitan-era readiness.
+- In-situ data extraction, serialization and halo-exchange infrastructure, and asynchronous CPU, GPU, and MPI overlap.
+- Visualization and data-query tooling for `.mili` simulation databases, including modern browser-facing and Python-facing access patterns.
+- Build, packaging, CI, testing, workflow automation, and software modernization work for long-lived technical codebases.
 
-I've also implemented a low-level in-situ data extraction feature (dubbed TimeHistory) for GEOS to allow users to extract arbitrary fields / data of interest on the mesh / associated with the linear systems, worked on JIT compilation of our modern, highly-templated C++ physics kernels, developed and optimized our type- and array-layout agnostic serialization kernels used for halo-exchange operations over MPI, and developed hierarchical asynchronous algorithms overlapping CPU work / async GPU work / and async MPI communications. Additionally I contributed to our MPI wrapper layers and developed generic MPI phased-communication routines.
+## Capacity
 
-The above GEOS work represents approximately 50% of my time effort at LLNL from September 2019 - August 2023.
+- I am comfortable moving across the full HPC software stack, from numerical kernels and distributed-memory behavior to build systems, testing, packaging, and developer tooling.
+- I work well in large, long-lived, runtime-critical, mixed-language codebases that need steady technical ownership.
+- I am not especially attached to any one implementation language. I usually approach a problem from the underlying computer science and systems constraints first, then use the language or mix of languages that best fits the job.
+- I can usually enter an unfamiliar scientific software system quickly, identify meaningful engineering leverage, and contribute at both low-level and architectural layers.
 
-The other 50% of my time has involved similar work, and additionally: modernization efforts on legacy codebases, binary database design, database query-layer design and implementation, post-processing visualization tool development, optimization, and modernization, CI/CD support for legacy codebases, modernizing build-systems to use lab-standard CMake + [BLT](https://github.com/LLNL/blt), workflow automation, regression testing / workflow testing tool development, project management, and additional efforts.
+## Navigate
 
-I previously worked as a post-doctoral researcher and graduate researcher at the the Scientific Computation Research Center [(SCOREC)](https://www.scorec.rpi.edu/) at Rensselear Polytechnic Institute where I earned my PhD in Computer Science. Click [here](grad.md) for an overview of my work during grad school / postdoc work. During my time there I was also a Graduate Research Fellow at Sandia National Laboratory from 2012 to 2015. I primarily developed software for HPC machines and applications. My thesis work involved the development of tools and libraries for the efficient implementation and execution of multi-scale simulations on HPC architectures.
+- [Capabilities](/capabilities/): technical areas, methods, and working style.
+- [Public Work](/public-work/): open-source links, talks, publications, notes, and example artifacts.
+- [Notes](/articles/): informal self-published technical notes, not peer-reviewed publications.
+- [Lab](/lab/): small browser-runnable numerical demos and toy experiments.
+- [CV](/cv/): a longer-form academic and technical summary.
+- [Contact](/contact/): public contact routes and profile links.
