@@ -18,5 +18,5 @@ permalink: /articles/
   {% endfor %}
 </div>
 {% else %}
-<p class="status-note">No notes are currently published. Drafts can remain in the repository with <code>published: false</code> until they are ready to appear on the site.</p>
+<p class="status-note">No notes are currently published.</p>
 {% endif %}
